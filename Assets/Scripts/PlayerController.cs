@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField]
     int speed;
+    public float HP;
 
     private void Start()
     {
@@ -71,8 +73,15 @@ public class PlayerController : MonoBehaviour
         {
             animator.Play("New Animation");
         }
+
+
     }
 
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+            HP -= 10;
+    }
     
 }
 
