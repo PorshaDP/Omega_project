@@ -10,7 +10,7 @@ public class ChangeRoom : MonoBehaviour
 
     void Start()
     {
-        cam = Camera.main.GetComponent<Camera>();
+        cam = Camera.main;
     }
 
     private void OnTriggerEnter2D(Collider2D other)

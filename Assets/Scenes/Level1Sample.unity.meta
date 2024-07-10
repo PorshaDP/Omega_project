@@ -1,5 +1,13 @@
 fileFormatVersion: 2
-guid: 8c9cfa26abfee488c85f1582747f6a02
+<<<<<<< Updated upstream
+guid: 127911604cceaf4489484e7d9fd05ed4
+=======
+<<<<<<<< Updated upstream:Assets/Scenes/Level2Sample 1.unity.meta
+guid: 24a57f4848f09104780749b783e3046a
+========
+guid: 6f63753f3bc5ab3409963bbebf00bb1d
+>>>>>>>> Stashed changes:Assets/Scenes/Level1Sample.unity.meta
+>>>>>>> Stashed changes
 DefaultImporter:
   externalObjects: {}
   userData: 

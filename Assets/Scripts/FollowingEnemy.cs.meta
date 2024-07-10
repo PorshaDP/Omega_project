@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Scripts/FollowingEnemy.cs.meta
 guid: 6327b005c902e0b4f8bd35b642cdc520
+========
+guid: c50f4dd95c4a406439402ec9ffde6b1e
+>>>>>>>> Stashed changes:Assets/Scripts/LevelUnlocker.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
